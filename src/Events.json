@@ -1,0 +1,70 @@
+{
+    "templates": {
+        "people" :  {
+            "name" : {
+                "first" : "",
+                "last" : "",
+                "full" : ""
+            },
+            "lifespan" : {
+                "birth" : "",
+                "death" : ""
+            },
+            "accomplishments" :  [
+                {
+
+                }
+            ]
+        },
+        "events" : [
+            {
+                "title" : "",
+                "date" : "",
+                "description" : "",
+                "wiki_id" : ""
+                
+            }
+        ]
+    },
+    "Timeline": {
+        "name": "Timeline",
+        "events": [
+            {
+                "title" : "Attack on The World Trade Center",
+                "date" : "2001-09-11",
+                "description" : "On September 11th, 2001 two planes; crashed into the world trade center",
+                "wiki_id" : "September_11_attacks"
+                
+            },
+            {
+                "title" : "United States Decalaration of Independence signed",
+                "date" : "1776-05-04",
+                "description" : "The Declaration of Independence, headed The unanimous Declaration of the thirteen united States of America, is the founding document of the United States.",
+                "wiki_id" : "United_States_Declaration_of_Independence"
+            }
+            
+        ],
+        "people":[
+            {
+                "name" : {
+                    "first" : "Jacob",
+                    "last" : "Coulson",
+                    "Full" : " Jacob Alan Coulson"
+                },
+                "lifespan" : {
+                    "birth" : "1996-09-30",
+                    "death" : "present"
+                },
+                "accomplishments" : [
+                    {
+                        "graduation" : {
+                            "degree": "ba",
+                            "subject": "Materials Science & Engineering",
+                            "date": "2019-12-14"
+                        }
+                    }              
+                ]
+            }
+        ]
+    }
+}
