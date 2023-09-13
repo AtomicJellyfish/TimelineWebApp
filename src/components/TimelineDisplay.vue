@@ -1,29 +1,22 @@
-<script lang="ts">
-  import  {VueHorizontalTimeline} from "vue-horizontal-timeline";
-  import Timeline from "@/Timeline.json"
+<script setup lang="ts">
+import {ref} from 'vue'
 
-  export default{
-    data() {
-      return {
-        TimelineData: Timeline
-      }
-    }
-  }
 </script>
 
 <template>
-  <div class="greetings">
-    <hr>
-    <vue-horizontal-timeline :items = "TimelineData" />
-  </div>
+  <p>HELLO WORLD</p>
   <div class="events">
-      <p v-for="events in TimelineData.events" :key="events.title">{{ events.title }}</p>
+    
   </div>
 </template>
 
 <style scoped>
 :hr{
   border-color: red;
+}
+
+:p{
+  color: red;
 }
 .events{
     color:magenta;
