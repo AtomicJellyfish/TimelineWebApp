@@ -26,7 +26,7 @@ hr {
 
 .timeline-display-contianer{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
 }
 .greetings h1,
