@@ -1,26 +1,34 @@
 <script setup lang="ts">
-import {ref} from 'vue'
+import { ref } from 'vue'
 
+import EventMarker from './LineTypes/EventMarker.vue';
+import TimePeriod from './LineTypes/TimePeriod.vue';
 </script>
 
 <template>
-  <p>HELLO WORLD</p>
-  <div class="events">
-    
+  <div class="timeline-display-container">
+    <p>HELLO WORLD</p>
+    <hr />
+    <EventMarker></EventMarker>
+    <TimePeriod></TimePeriod>
   </div>
 </template>
 
 <style scoped>
-:hr{
-  border-color: red;
+hr {
+  width: 500px;
+  border: solid 1px red;
 }
 
-:p{
+:p {
   color: red;
 }
-.events{
-    color:magenta;
-  }
+
+.timeline-display-contianer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 .greetings h1,
 .greetings h3 {
   text-align: center;

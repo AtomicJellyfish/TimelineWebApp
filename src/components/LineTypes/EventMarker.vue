@@ -1,15 +1,19 @@
 <template lang="html">
-    <div></div>
-</template>
-<script lang="ts">
-import Timeline from '@/Timeline.json'
-
-export default {
-    data() {
-        return {
-            TimelineData: Timeline
+    <li v-for="event in events" :key="event.id">
+        {{ event.title}}
+    </li>        
+    </template>
+    <script lang="ts">
+    import eventData from '@/events.json'
+    
+    export default {
+        data() {
+            return{
+                events: eventData,
+            };
         }
     }
-}
-</script>
-<style lang="scss"></style>
+    </script>
+    <style lang="scss">
+
+    </style>
